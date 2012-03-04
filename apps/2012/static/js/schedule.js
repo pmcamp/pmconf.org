@@ -23,7 +23,7 @@ $(function(){
 		$(speakers).find("speaker").each(function(i, e){
 			if (hovername.indexOf($(e).children("fullname").text()) != -1){
 				if ($(this).children("avatar").text()){
-					tip += '<img src="http://pycon.b0.upaiyun.com/images/speakers/' + $(this).children("avatar").text() + '" alt="' + $(this).children("fullname").text() + '" />'
+					tip += '<img src="http://ioscon.org/static/images/speakers/' + $(this).children("avatar").text() + '" alt="' + $(this).children("fullname").text() + '" />'
 				}else{
 					tip += '<img src="http://pycon.b0.upaiyun.com/images/speakers/nopic.gif" alt="' + $(this).children("fullname").text() + '" />'
 				}
