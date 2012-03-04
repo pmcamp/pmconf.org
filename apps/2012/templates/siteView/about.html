@@ -1,10 +1,12 @@
 {{extend "bootstrap_layout.html"}}
+{{block title}}<title>关于大会 - {{=settings.LAYOUT.TITLE}}</title>{{end}}
+
 {{block content}}
 <h1>关于大会</h1>
 
 <div class="row show-grid">
     <div class="span5">
-        <img class="pull-right" style="margin-right:20px;" src="{{=url_for_static('images/PyConChina.png')}}" alt="PyCon China 2011 Logo" /></div><!--END span-->
+        <img class="pull-right" style="margin-right:20px;" src="{{=url_for_static('images/ioscon.png')}}" alt="iOSCon China 2012 Logo" /></div><!--END span-->
     <div class="span11">
         <p>世界ios爱好者的盛会iOSCon首次在中国举办，本次大会由GTUG， TopGeek，CPyUG联合举办。</p>
         <p>iOSCon.Org是举办ios的国际性社区，在世界各地举办ios大会，是ios爱好者的盛会，对推动ios在各地的发展有深远的影响</p>

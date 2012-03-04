@@ -1,5 +1,8 @@
 {{extend "bootstrap_layout.html"}}
 
+{{block title}}<title>{{=settings.LAYOUT.TITLE}}首页</title>{{end}}
+
+
 {{block meta}}
 <link rel="stylesheet" type="text/css" href="{{=url_for_static('css/index.css')}}" />
 <script type="text/javascript" src="{{=url_for_static('js/QTransform.js')}}"></script>
@@ -14,17 +17,17 @@
             <div class="hero-content" id="first-hero">
                 <div class="row show-grid">
                     <div class="span-one-third" style="width:200px;">
-                        <img src="{{=url_for_static('images/ioscon.png')}}" alt="iOSCon China 2011 Logo" />
+                        <img src="{{=url_for_static('images/ioscon.png')}}" alt="iOSCon China 2012 Logo" />
                     </div>
                     <div class="span-two-thirds" style="width:600px; text-align:right;">
                         <h1 style="border:none; padding-bottom:0;">iOSCon China 2012</h1><h1>Is Here!</h1>
-                        <p>Dec 3, 2011 - Dec 4, 2011 9:30 AM - 6:00 PM</p>
+                        <p>Mar 25, 2012 9:30 AM - 6:00 PM</p>
                         <p>Shanghai, China</p>
                         <p>Total number of seats: 300</p>
                         <p>Seats still available.</p>
                     </div>
                     <br />
-                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">立即报名！ &raquo;</a></p>
+                    <p style="text-align:right;"><a class="btn primary large" href="http://ioscon.51qiangzuo.com/" onClick="_gaq.push(['_trackEvent', 'RegButton', 'Click', '{{=request.path}}_banner1_'+this.href]);">立即报名！ &raquo;</a></p>
                 </div><!--END grid-->
             </div><!--END hero-content-->
             
@@ -41,7 +44,7 @@
                         <p>还没有注册？点击下面的按钮立即前往注册页面。</p>
                     </div>
                     <br />
-                    <p style="text-align:right;"><a class="btn primary large" href="/2011/registration ">立即报名！ &raquo;</a></p>
+                    <p style="text-align:right;"><a class="btn primary large" href="http://ioscon.51qiangzuo.com/" onClick="_gaq.push(['_trackEvent', 'RegButton', 'Click', '{{=request.path}}_banner2_'+this.href]);">立即报名！ &raquo;</a></p>
                 </div><!--END grid-->
             </div><!--END hero-content-->
             
@@ -68,18 +71,18 @@
     
     <div class="row show-grid underhero">
         <div class="span3"><h2 style="margin-top:10px;">大会赞助商</h2></div>
-        <div class="span3"><a target="_blank" href="http://www.matrixpartners.com.cn/"><img src="{{=url_for_static('images/sponsors/matrixpartners_logo.png')}}" alt="matrixpartners" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.kic.net.cn/"><img style="margin-top:10px;" src="{{=url_for_static('http://www.kic.net.cn/Portals/_default/Skins/KI/images/logo.jpg')}}" alt="kic" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.shunwang.com/"><img src="{{=url_for_static('images/sponsors/shunwang.jpg')}}" alt="shunwang" width="120" /></a></div>
-        <div class="span3"><a target="_blank" href="http://iapp4me.com"><img src="{{=url_for_static('images/sponsors/iApp4Me.png')}}" alt="iapp4me" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.matrixpartners.com.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/matrixpartners_logo.png')}}" alt="matrixpartners" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.kic.net.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:10px;" src="{{=url_for_static('http://www.kic.net.cn/Portals/_default/Skins/KI/images/logo.jpg')}}" alt="kic" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.shunwang.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/shunwang.jpg')}}" alt="shunwang" width="120" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://iapp4me.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/iApp4Me.png')}}" alt="iapp4me" width="150" /></a></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://www.ijinshan.com/"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="turingbook" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.douban.com/"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/gensee.png')}}" alt="gensee" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.ituring.com.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="turingbook" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gensee.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/gensee.png')}}" alt="gensee" width="150" /></a></div>
     </div><!--END grid-->
     
-    <h2 style="margin-top:10px; display:inline-block; border:none;">演讲嘉宾</h2><small>&nbsp;&nbsp;<a href="/2011/schedule">查看详细演讲内容及日程安排 &raquo;</a></small>
+    <h2 style="margin-top:10px; display:inline-block; border:none;">演讲嘉宾</h2><small>&nbsp;&nbsp;<a href="/2012/schedule">查看详细演讲内容及日程安排 &raquo;</a></small>
     <div class="row show-grid underhero speakers">
         <div class="span8">
             <img src="{{=url_for_static('images/speakers/tuhongyi.jpg')}}" alt="屠毅敏" />
@@ -109,22 +112,22 @@
 
     <div class="row show-grid underhero">
         <div class="span3"><h2 style="margin-top:10px;">媒体支持</h2></div>
-        <div class="span3"><a target="_blank" href="http://www.infoq.com/"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.csdn.net/"><img src="{{=url_for_static('images/sponsors/TopGeek_logo.jpg')}}" alt="CSDN" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="https://groups.google.com/forum/?fromgroups#!forum/shanghai-gtug"><img src="{{=url_for_static('images/sponsors/gtug-shanghai-logo.png')}}" alt="shanghai gtug" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.gtugs.org/chapter.jsp?id=11"><img src="{{=url_for_static('images/sponsors/Guanzhou-GTUG_400.jpg')}}" alt="guangzhou gtug" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.infoq.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.csdn.net/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/TopGeek_logo.jpg')}}" alt="CSDN" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="https://groups.google.com/forum/?fromgroups#!forum/shanghai-gtug?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/gtug-shanghai-logo.png')}}" alt="shanghai gtug" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gtugs.org/chapter.jsp?id=11&utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/Guanzhou-GTUG_400.jpg')}}" alt="guangzhou gtug" width="150" /></a></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://www.gtugs.org/chapter.jsp?id=10"><img src="{{=url_for_static('images/sponsors/BEIJINGgtug.png')}}" alt="beijing gtug" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.tiny4cocoa.com/"><img src="{{=url_for_static('images/sponsors/Tiny4Cocoa_logo.png')}}" alt="TopGeek" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.mobiletmt.com/"><img src="{{=url_for_static('images/sponsors/mobiletmtlogo.png')}}" alt="mobiletmt" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="#"><img src="{{=url_for_static('images/sponsors/demo-coffee-logo.jpg')}}" alt="democoffee" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gtugs.org/chapter.jsp?id=10&utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/BEIJINGgtug.png')}}" alt="beijing gtug" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.tiny4cocoa.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/Tiny4Cocoa_logo.png')}}" alt="TopGeek" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.mobiletmt.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/mobiletmtlogo.png')}}" alt="mobiletmt" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="#"><img src="{{=url_for_static('images/sponsors/demo-coffee-logo.jpg')}}" alt="democoffee" width="150" /></a></div>
     </div><!--END grid-->
     <div class="row show-grid underhero">
         <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" href="http://groups.google.com/group/hangzhou-gtug"><img src="{{=url_for_static('images/sponsors/hangzhou-GTUG-logo.jpg')}}" alt="hangzhou gtug" width="150" /></a></div>
-        <div class="span3"><a target="_blank" href="http://www.pmcamp.org/"><img src="{{=url_for_static('images/sponsors/PMCamp_logo.jpg')}}" alt="pmcamp" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://groups.google.com/group/hangzhou-gtug?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/hangzhou-GTUG-logo.jpg')}}" alt="hangzhou gtug" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.pmcamp.org/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/PMCamp_logo.jpg')}}" alt="pmcamp" width="150" /></a></div>
         <div class="span3"></div>
         <div class="span3"></div>
     </div><!--END grid-->
@@ -144,20 +147,20 @@
                       <li>《iOS调试实战》 -孔详波</li>
                   </ul>
           </ol>
-          <p><a class="btn" href="/2011/schedule">详细日程 &raquo;</a></p>
+          <p><a class="btn" href="/2012/schedule">详细日程 &raquo;</a></p>
 
         </div>
         <div class="span5">
           <h2>关于iOSCon</h2>
            <p>iOSCon.Org是举办ios开发的国际性社区。</p>
-          <p><a class="btn" href="/2011/about">更多细节 &raquo;</a></p>
+          <p><a class="btn" href="/2012/about">更多细节 &raquo;</a></p>
        </div>
         <div class="span5">
 
           <h2>近期新闻</h2>
           <ol>
               <li>iOSCon官方网站上线</li>
-              <li>iOSCon官方微博 <a href="http://weibo.com/iOSConCN" target="_blank">@iOSConCN</a> 上线</li>
+              <li>iOSCon官方微博 <a onClick="recordOutboundLink(this, 'BottomWeiboLink');" href="http://weibo.com/iOSConCN" target="_blank">@iOSConCN</a> 上线</li>
           </ol>
         </div>
       </div>
