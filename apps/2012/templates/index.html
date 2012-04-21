@@ -13,164 +13,147 @@
 {{end}}
 
 {{block content}}
-    <div class="hero-unit">
-        <div id="content">
-            <div class="hero-content" id="first-hero">
-                <div class="row show-grid">
-                    <div class="span-one-third" style="width:200px;">
-                        <!--<img src="{{=url_for_static('images/ioscon.png')}}" alt="iOSCon China 2012 Logo" />-->
-                        <img src="{{=url_for_static('images/iOSConChina.png')}}" alt="iOSCon China 2012 Logo" width="200" />
-                    </div>
-                    <div class="span-two-thirds" style="width:600px; text-align:right;">
-                        <h1 style="border:none; padding-bottom:0;">PMConf China 2012</h1>
-                        <p>Mar 25, 2012 9:30 AM - 6:00 PM</p>
-                        <p>Shanghai, China</p>
-                        <p>Total number of seats: 300</p>
-                        <p>Seats still available.</p>
-                    </div>
-                    <br />
-                    <p style="text-align:right;"><a target="_blank" class="btn primary large" href="http://e.gensee.com/l_72a754" onClick="_gaq.push(['_trackEvent', 'LiveButton', 'Click', '{{=request.path}}_banner1_'+this.href]);">现场直播 &raquo;</a></p>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-            <div class="hero-content" id="second-hero">
-                <div class="row show-grid">
-                    <div class="span-one-third" style="width:200px;">
-                        <img src="{{=url_for_static('images/heroes/bambook.png')}}" alt="SNDA Bambook" />
-                    </div>
-                    <div class="span-two-thirds" style="width:600px; text-align:right;">
-                        <h2>在今年的大会中</h2>
-                        <h2>我们会抽出1台Bambook</h2>
-                        <h2>作为参会者的奖品</h2>
-                        <p>人人都有机会，只要您已经注册</p>
-                        <p>还没有注册？点击下面的按钮立即前往注册页面。</p>
-                    </div>
-                    <br />
-                    <p style="text-align:right;"><a target="_blank" class="btn primary large" href="http://ioscon.51qiangzuo.com/" onClick="_gaq.push(['_trackEvent', 'RegButton', 'Click', '{{=request.path}}_banner2_'+this.href]);">立即报名！ &raquo;</a></p>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-            <div class="hero-content" id="forth-hero">
-                <div class="row show-grid">
-                    <div class="span-one-third" style="text-align:center;">
-                        <h1 style="border:none; margin-left:10px;">Follow US on</h1>
-                        <img style="margin-top:50px;" src="http://img.t.sinajs.cn/t4/style/images/staticlogo/download/Brand_Group/PNG/Cn_En_Group/Sina_Weibo_Logo_RGB_C_E.png" width="250" alt="Sina Weibo Logo" />
-                    </div>
-                    <div class="span8" style="text-align:right;">
-                        <iframe width="350" height="310" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=350&amp;height=310&amp;fansRow=2&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=0&amp;uid=2651165267&verifier=9a69b12e"></iframe>
-                    </div>
-                </div><!--END grid-->
-            </div><!--END hero-content-->
-
-            <!--NEW hero insert here-->
-        </div><!--END content-->
-        <div class="row show-grid" id="hero-selector">
-            <div class="span1" id="first">1</div>
-            <div class="span1" id="second">2</div>
-            <div class="span1" id="third">3</div>
-        </div><!-- END row-->
-    </div><!-- END hero-unit-->
-
-    <div class="row show-grid underhero">
-        <div class="span3"><h2 style="margin-top:10px;">大会赞助商</h2></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.matrixpartners.com.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/matrixpartners_logo.png')}}" alt="matrixpartners" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.kic.net.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:10px;" src="{{=url_for_static('http://www.kic.net.cn/Portals/_default/Skins/KI/images/logo.jpg')}}" alt="kic" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.shunwang.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/shunwang.jpg')}}" alt="shunwang" width="120" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.21vc.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/21century.png')}}" alt="21世纪创投网" width="150" /></a></div>
-    </div><!--END grid-->
-    <div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.firefox.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/firefox_logo.png')}}" alt="Firefox" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.snda.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/snda.png')}}" alt="snda" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://iapp4me.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/iApp4Me.png')}}" alt="iapp4me" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.ituring.com.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="turingbook" width="150" /></a></div>
-    </div><!--END grid-->
-    <div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gensee.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/gensee.png')}}" alt="gensee" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.emay.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:20px;" src="{{=url_for_static('images/sponsors/emay.png')}}" alt="emay" width="150" /></a></div>
-    </div><!--END grid-->
-
-    <h2 style="margin-top:10px; display:inline-block; border:none;">演讲嘉宾</h2><small>&nbsp;&nbsp;<a href="/2012/schedule">查看详细演讲内容及日程安排 &raquo;</a></small>
-    <div class="row show-grid underhero speakers">
-        <div class="span8">
-            <img src="{{=url_for_static('images/speakers/haopeiqiang.jpg')}}" alt="郝培强" />
+<div class="hero-unit">
+  <div id="content">
+    <div class="hero-content" id="first-hero">
+      <div class="row show-grid">
+        <div class="span-one-third" style="width:200px;">
+          <!--img src="{{=url_for_static('images/ioscon.png')}}" alt="iOSCon China 2012 Logo" /-->
+          <img src="{{=url_for_static('images/iOSConChina.png')}}" alt="iOSCon China 2012 Logo" width="200" />
         </div>
-        <div class="span8">
-            <img src="{{=url_for_static('images/speakers/yangwu.gif')}}" alt="杨武" />
+        <div class="span-two-thirds" style="width:600px; text-align:right;">
+          <h1 style="border:none; padding-bottom:0;">PMConf China 2012</h1>
+          <p>May 19, 2012 9:00 AM - 6:00 PM</p>
+          <p>Shanghai, China</p>
+          <p>Total number of seats: 300</p>
+          <p>Seats still available.</p>
         </div>
-    </div><!--END row-->
+        <br />
+        <p style="text-align:right;"><a target="_blank" class="btn primary large" href="http://e.gensee.com/l_72a754" onClick="_gaq.push(['_trackEvent', 'LiveButton', 'Click', '{{=request.path}}_banner1_'+this.href]);">现场直播 &raquo;</a></p>
+      </div><!--END grid-->
+    </div><!--END hero-content-->
 
-    <div class="row show-grid underhero speakers">
-        <div class="span8">
-            <img src="{{=url_for_static('images/speakers/liliang.jpg')}}" alt="李亮" />
+    <div class="hero-content" id="second-hero">
+      <div class="row show-grid">
+        <div class="span-one-third" style="width:200px;">
+          <img src="{{=url_for_static('images/heroes/bambook.png')}}" alt="SNDA Bambook" />
         </div>
-        <div class="span8">
-            <img src="{{=url_for_static('images/speakers/duanmuheng.jpg')}}" alt="端木恒" />
+        <div class="span-two-thirds" style="width:600px; text-align:right;">
+          <h2>在今年的大会中</h2>
+          <h2>我们会抽出1台Bambook</h2>
+          <h2>作为参会者的奖品</h2>
+          <p>人人都有机会，只要您已经注册</p>
+          <p>还没有注册？点击下面的按钮立即前往注册页面。</p>
         </div>
-    </div><!--END row-->
+        <br />
+        <p style="text-align:right;"><a target="_blank" class="btn primary large" href="http://pmcon.51qiangzuo.com/" onClick="_gaq.push(['_trackEvent', 'RegButton', 'Click', '{{=request.path}}_banner2_'+this.href]);">立即报名！ &raquo;</a></p>
+      </div><!--END grid-->
+    </div><!--END hero-content-->
 
-    <div class="row show-grid underhero speakers">
-        <div class="span8">
-            <img src="{{=url_for_static('images/speakers/kongxiangbo.png')}}" alt="孔详波" />
+    <div class="hero-content" id="forth-hero">
+      <div class="row show-grid">
+        <div class="span-one-third" style="text-align:center;">
+          <h1 style="border:none; margin-left:10px;">Follow US on</h1>
+          <img style="margin-top:50px;" src="http://img.t.sinajs.cn/t4/style/images/staticlogo/download/Brand_Group/PNG/Cn_En_Group/Sina_Weibo_Logo_RGB_C_E.png" width="250" alt="Sina Weibo Logo" />
         </div>
-        <div class="span8">
-            <img src="{{=url_for_static('images/speakers/tuhongyi.jpg')}}" alt="屠毅敏" />
+        <div class="span8" style="text-align:right;">
+          <iframe width="350" height="310" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=350&amp;height=310&amp;fansRow=2&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=0&amp;uid=2651165267&verifier=9a69b12e"></iframe>
         </div>
-    </div><!--END row-->
+      </div><!--END grid-->
+    </div><!--END hero-content-->
 
-    <div class="row show-grid underhero">
-        <div class="span3"><h2 style="margin-top:10px;">媒体支持</h2></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.infoq.com/cn?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.csdn.net/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/csdn.gif')}}" alt="CSDN" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="https://groups.google.com/forum/?fromgroups#!forum/shanghai-gtug?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/gtug-shanghai-logo.png')}}" alt="shanghai gtug" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gtugs.org/chapter.jsp?id=11&utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/Guanzhou-GTUG_400.jpg')}}" alt="guangzhou gtug" width="150" /></a></div>
-    </div><!--END grid-->
-    <div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gtugs.org/chapter.jsp?id=10&utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/BEIJINGgtug.png')}}" alt="beijing gtug" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.tiny4cocoa.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/Tiny4Cocoa_logo.png')}}" alt="TopGeek" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.mobiletmt.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/mobiletmtlogo.png')}}" alt="mobiletmt" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="#"><img src="{{=url_for_static('images/sponsors/demo-coffee-logo.jpg')}}" alt="democoffee" width="150" /></a></div>
-    </div><!--END grid-->
-    <div class="row show-grid underhero">
-        <div class="span3">&nbsp;</div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://groups.google.com/group/hangzhou-gtug?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/hangzhou-GTUG-logo.jpg')}}" alt="hangzhou gtug" width="150" /></a></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.pmcamp.org/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img src="{{=url_for_static('images/sponsors/PMCamp_logo.jpg')}}" alt="pmcamp" width="150" /></a></div>
-        <div class="span3"></div>
-        <div class="span3"></div>
-    </div><!--END grid-->
+    <!--NEW hero insert here-->
+  </div><!--END content-->
+  <div class="row show-grid" id="hero-selector">
+    <div class="span1" id="first">1</div>
+    <div class="span1" id="second">2</div>
+    <div class="span1" id="third">3</div>
+  </div><!-- END row-->
+</div><!-- END hero-unit-->
 
-    <div class="row">
-        <div class="span6">
-          <h2>演讲日程</h2>
-          <ol>
-              <li class="has_sub_schedule">主题演讲&darr;
-                  <ul class="sub_schedule">
-                      <li>主办方和赞助者介绍</li>
-                      <li>《iOS平台开发者的机遇和挑战》- 郝培强</li>
-                      <li>《移动产品可用性设计》 - 杨武</li>
-                      <li>《移动应用开发的技术路线选择》 - 李亮</li>
-                      <li>《移动产品设计》 - 端木恒</li>
-                      <li>《iOS调试实战》 -孔详波</li>
-                      <li>《iOS应用开发最佳实践》 -屠毅敏</li>
-                  </ul>
-          </ol>
-          <p><a class="btn" href="/2012/schedule">详细日程 &raquo;</a></p>
+<div class="row show-grid underhero">
+  <div class="span3"><h2 style="margin-top:10px;">大会赞助商</h2></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.kic.net.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img style="padding:10px 0;" src="{{=url_for_static('http://www.kic.net.cn/Portals/_default/Skins/KI/images/logo.jpg')}}" alt="kic" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gensee.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img style="padding:20px 0;" src="{{=url_for_static('images/sponsors/gensee.png')}}" alt="gensee" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.ituring.com.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img style="padding:35px 0;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="turingbook" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.bingdian.com//?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img style="padding:25px 0;" src="{{=url_for_static('images/sponsors/bingding_logo.gif')}}" alt="turingbook" width="150" /></a></div>
+</div><!--END grid-->
 
-        </div>
-        <div class="span5">
-          <h2>关于iOSCon</h2>
-           <p>iOSCon.Org是举办ios开发的国际性社区。</p>
-          <p><a class="btn" href="/2012/about">更多细节 &raquo;</a></p>
-       </div>
-        <div class="span5">
+<h2 style="margin-top:10px; display:inline-block; border:none;">演讲嘉宾</h2><small>&nbsp;&nbsp;<a href="/2012/schedule">查看详细演讲内容及日程安排 &raquo;</a></small>
+<div class="row show-grid underhero speakers">
+  <div class="span8">
+    <img src="{{=url_for_static('images/speakers/zhouhongqiao.jpg')}}" alt="周宏桥" />
+  </div>
+  <div class="span8">
+    <img src="{{=url_for_static('images/speakers/baojizheng.jpg')}}" alt="包季真" />
+  </div>
+</div><!--END row-->
 
-          <h2>近期新闻</h2>
-          <ol>
-              <li>iOSCon官方网站上线</li>
-              <li>iOSCon官方微博 <a onClick="recordOutboundLink(this, 'BottomWeiboLink');" href="http://weibo.com/iOSConCN" target="_blank">@iOSConCN</a> 上线</li>
-          </ol>
-        </div>
-      </div>
+<div class="row show-grid underhero speakers">
+  <div class="span8">
+    <img src="{{=url_for_static('images/speakers/chenshixin.jpg')}}" alt="陈世欣" />
+  </div>
+  <div class="span8">
+    <img src="{{=url_for_static('images/speakers/liangkuan.jpg')}}" alt="梁宽" />
+  </div>
+</div><!--END row-->
+
+<div class="row show-grid underhero speakers">
+  <div class="span8">
+    <img src="{{=url_for_static('images/speakers/luoxuxiang.jpg')}}" alt="罗旭祥" />
+  </div>
+  <div class="span8">
+    <img src="{{=url_for_static('images/speakers/zhangyue.jpg')}}" alt="张月" />
+  </div>
+</div><!--END row-->
+
+<div class="row show-grid underhero speakers">
+  <div class="span8">
+    <img src="{{=url_for_static('images/speakers/xiongzichuan.jpg')}}" alt="熊子川" />
+  </div>
+</div><!--END row-->
+
+<div class="row show-grid underhero">
+  <div class="span3"><h2 style="margin-top:10px;">媒体支持</h2></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.infoq.com/cn?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/infoq.gif')}}" alt="InfoQ" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.csdn.net/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/csdn.gif')}}" alt="CSDN" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="https://groups.google.com/forum/?fromgroups#!forum/shanghai-gtug?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/gtug-shanghai-logo.png')}}" alt="shanghai gtug" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gtugs.org/chapter.jsp?id=11&utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/Guanzhou-GTUG_400.jpg')}}" alt="guangzhou gtug" width="150" /></a></div>
+</div><!--END grid-->
+<div class="row show-grid underhero">
+  <div class="span3">&nbsp;</div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.gtugs.org/chapter.jsp?id=10&utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/BEIJINGgtug.png')}}" alt="beijing gtug" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.tiny4cocoa.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/Tiny4Cocoa_logo.png')}}" alt="TopGeek" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.mobiletmt.com/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/mobiletmtlogo.png')}}" alt="mobiletmt" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="#"><img src="{{=url_for_static('images/sponsors/demo-coffee-logo.jpg')}}" alt="democoffee" width="150" /></a></div>
+</div><!--END grid-->
+<div class="row show-grid underhero">
+  <div class="span3">&nbsp;</div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://groups.google.com/group/hangzhou-gtug?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/hangzhou-GTUG-logo.jpg')}}" alt="hangzhou gtug" width="150" /></a></div>
+  <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.pmcamp.org/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=pmconf2012"><img src="{{=url_for_static('images/sponsors/PMCamp_logo.jpg')}}" alt="pmcamp" width="150" /></a></div>
+  <div class="span3"></div>
+  <div class="span3"></div>
+</div><!--END grid-->
+
+<div class="row">
+  <div class="span6">
+    <h2>演讲日程</h2>
+    <p>主题演讲</p>
+    <p><a class="btn" href="/2012/schedule">详细日程 &raquo;</a></p>
+  </div>
+
+  <div class="span5">
+    <h2>关于PMConf</h2>
+    <p><a target="_blank" href="http://pmconf.org">PMConf.org</a>是举办PMConf的国际性社区。</p>
+    <p><a class="btn" href="/2012/about">更多细节 &raquo;</a></p>
+  </div>
+
+  <div class="span5">
+    <h2>近期新闻</h2>
+    <ol>
+      <li>PMConf官方网站上线</li>
+      <li>PMConf官方微博 <a onClick="recordOutboundLink(this, 'BottomWeiboLink');" href="http://weibo.com/pmcamp" target="_blank">@pmcamp</a>上线</li>
+    </ol>
+  </div>
+</div>
 {{end}}

@@ -1,62 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <speakers>
-	<speaker>
-	    <fullname>郝培强</fullname>
-		<nickname></nickname>
-		<company></company>
-		<position></position>
-		<desc>郝培强(Tinyfool)，有道词典第一版作者、前盛大创新院高级研究员、iOS专家、iApp4Me创始人。</desc>
-		<avatar>haopeiqiang.jpg</avatar>
-		<speech>iOS平台开发者的机遇和挑战</speech>
-	</speaker>
-	
-	<speaker>
-	    <fullname>李亮</fullname>
-		<nickname>Holly Lee</nickname>
-		<company>上海改变科技有限公司</company>
-		<position>CTO</position>
-		<desc>李亮本人有20多年的软件开发经理，从嵌入式系统到企业开发均有研究。目前致力与移动计算与云计算方向，他还是iOS第一个输入法iCosta for iPhone以及RockPlayer for Android的主要开发者之一。RockPlayer是Android平台上全球最成功的媒体播放工具，受到了广大用户的好评，目前为止累计下载数量大概在三千万左右。最新推出的iOS平台上的演讲工具AirSlides。</desc>
-		<avatar>liliang.jpg</avatar>
-		<speech>《移动应用开发的技术路线选择》</speech>
-	</speaker>
-	
-    <speaker>
-	    <fullname>端木恒</fullname>
-		<nickname></nickname>
-		<company>腾讯</company>
-		<position></position>
-		<desc>曾为苹果公司工作6年，任职于Worldwide Developer Relations、Asia Education Strategy Development等部门，并作为独立顾问负责苹果与富士康的社会责任感教育联合项目。后加入腾讯，负责微博和QQ产品线在iOS/Android/Mac平台的产品工作。他曾在多种公共活动分享产品设计演讲，并在包括搜狐、腾讯、豆瓣等公司内分享产品设计经验。目前在一个初创团队负责产品工作。</desc>
-		<avatar>duanmuheng.jpg</avatar>
-		<speech>《移动产品设计》</speech>
-	</speaker>
-	
-	<speaker>
-	    <fullname>杨武</fullname>
-		<nickname>品雪</nickname>
-		<company></company>
-		<position></position>
-		<desc>前思科系统中国研发有限公司软件工程师，同济大学MBA。从事软件开发近14年，近年来关注移动应用开发，也是iOS第一个输入法iCosta for iPhone以及RockPlayer for Android的主要开发者之一，最新作品是iOS平台上的演讲工具AirSlides。AirSlides是一款针对演讲、会议、教学等场合进行展示、共享和协作的工具。AirSlides让演讲者、教师、发言人不再被电脑所在的位置束缚, 能够在演讲过程中, 在一定范围之内自由走动, 同时还能够随时看到自己的讲稿的工具应用。通过在演讲者手持的 iPad 上显示演讲内容, 实时将内容同步传输到一个与投影仪相连接的 iDevice 上, 由这个iDevice 将内容输出到投影仪, 从而获得随意移动的能力. 另外, AirSlides 还提供了 VoIP 的音频传输能力, 以及演讲者能够在演讲过程中随意标注并能让所有人看到的功能。</desc>
-		<avatar>yangwu.gif</avatar>
-		<speech>《移动产品可用性设计》</speech>
-	</speaker>
-	
-	<speaker>
-	    <fullname>孔详波</fullname>
-		<nickname>yarshure</nickname>
-		<company>盛大创新院</company>
-		<position>高级研究员</position>
-		<desc>研究技术领域包括：iOS/Mac/FreeBSD/Python/Canon5D2，先前就职于国内著名网络公司，FreeBSD系统使用者。曾两次参加WWDC，对iPhone开发有较深入的研究。 个人博客 http://iPhone.ipsw.info。</desc>
-		<avatar>kongxiangbo.png</avatar>
-		<speech>《iOS调试实战》</speech>
-	</speaker>
+  <speaker>
+    <fullname>周宏桥</fullname>
+    <nickname></nickname>
+    <company></company>
+    <position></position>
+    <desc><![CDATA[
+      北京大学计算机系软件专业本科、美国雪城大学计算机硕士、华盛顿大学EMBA。 历任：中美IT职涯18年12款产品，见列表如下。历任程序员、产品经理、产品副总裁、产品销售总经理、产品总负责COO、总裁，并兼任多家企业非执董及产品设计顾问，工作过的企业包括四通、微软、科泰、美慧等。 历兼：作为产品创新及竞争战略专家为政府高新区软件园、高校电子商务、商学院、计算机及软件学院等咨询授课，曾兼中国计算机学会YOCSEF副主席、西安交大电子商务所研究员、同济大学基础软件中心副主任等。<br/>
+      产品与创新的实践者与探索者。著有“创新创造突破性产品实战体系”三部曲之一的《就这么做产品》（2009年6月V1，2011年6月V2）及之二的《就这么做创新》（2010年6月V1）。<br/>
+      他是门票3600元的<a href="http://mpday.csdn.net/">2011年亚太软件研发团队高峰论坛</a>的讲师。<br/>
+      也是门票1760元的<a href="http://www.softcon.cn/schedule.asp">2011年中国软件技术大会</a>的讲师。
+      ]]></desc>
+    <avatar>zhouhongqiao.jpg</avatar>
+    <speech>《创新地图-产品创新创造思维框架》</speech>
+  </speaker>
 
-    <speaker>
-	    <fullname>屠毅敏</fullname>
-		<nickname></nickname>
-		<company>大众点评网</company>
-		<position>移动研发首席工程师</position>
-		<desc>08年开始从事iOS及Android相关的研发工作，独立搭建了点评所有移动客户端的第一版，当前的研究领域集中在移动领域的前沿技术，包括移动定位优化算法，声音编码，短接数据交换等。</desc>
-		<avatar>tuhongyi.jpg</avatar>
-		<speech>《iOS应用开发最佳实践》</speech>
-	</speaker>
+  <speaker>
+    <fullname>包季真</fullname>
+    <nickname></nickname>
+    <company></company>
+    <position></position>
+    <desc><![CDATA[脉可寻客户端产品总监。《触动人心：设计优秀的iPhone应用》一书译者。淘宝淘品牌包括植物语、本草宜等多个商家用户体验顾问。 曾任大众点评、淘宝网、美国Diigo公司产品经理和资深交互设计师。曾负责大众点评手机客户端用户体验，淘宝网CMS系统和多条产品线。<br/>
+      其设计的“脉可寻名片”应用目前居AppStore工具类的第一。<br/>
+      他是门票3800元的<a href="http://www.pm-china.org/con2011/register">2011年产品经理中国大会</a>讲师
+      ]]></desc>
+    <avatar>baojizheng.jpg</avatar>
+    <speech>《移动互联网用户体验设计》</speech>
+  </speaker>
+
+  <speaker>
+    <fullname>陈世欣</fullname>
+    <nickname></nickname>
+    <company></company>
+    <position></position>
+    <desc><![CDATA[
+      1999年毕业于上海交通大学计算机系获硕士学位，一直从事国内外各种互联网创业企业的技术和产品相关工作，在互联网产品设计、技术研发、产品运营等方面有着14年以上的经验。曾任易趣网项目经理、安家网副总经理、美国Movoto.Com中国公司总经理、中国最大的装修家居网站-和家网首席技术官，现在是欧洲2Style4You公司的首席技术官，负责公司的产品和技术。<br/>
+      业余时间他还创办了上海最大的产品经理会议组织PMCamp以及上海高端技术社区TopGeek顶尖极客沙龙，并担任组委会主席和讲师，讲授了多次产品经理课程和主持工作坊。<br/>
+      其目前所在的2Style4You是世界领先的时尚产品电子商务推荐引擎服务公司，为亚洲和欧洲领先的电子商务公司提供技术和营销服务，帮助中国大陆、台湾、欧洲的著名电商网站大幅提升销售转化率，并带给网站以全新的精准营销模式能力和效率。陈世欣作为产品和技术负责人，建立了一套先进的推荐体系和精准营销方法，给用户提供完全个性化的在线时尚信息和邮件，平均销售转化率比合作伙伴原转化率高出30%到5倍以上。<br/>
+      微博：<a href="http://weibo.com/stingchen">stingchen</a>  博客：<a href="http://sting.topgeek.org/">sting.topgeek.org</a>
+      ]]></desc>
+    <avatar>chenshixin.jpg</avatar>
+    <speech>《高转化率网站的推荐和劝导体系设计》</speech>
+  </speaker>
+
+  <speaker>
+    <fullname>梁宽</fullname>
+    <nickname></nickname>
+    <company></company>
+    <position></position>
+    <desc><![CDATA[
+      淘宝网资深数据产品专家。 现在负责淘宝数据产品和运营团队，承担着商业化淘宝数据的责任。 目前是淘宝个性化消费者数据库的业务负责人。<br/>
+      在淘宝5年历任过架构师，产品经理，产品运营，业务leader各种岗位。 团队贡献的产品包括“TCIF“，“人群导购“，“数据魔方”， “淘宝指数”，“淘宝情报”，“淘词”。 曾经负责淘宝商家营销产品。 擅长用数据决策产品方向，擅长洞察数据让产品起死回生。<br/>
+      他是门票3800元的<a href="http://www.pm-china.org/con2011/register">2011年产品经理中国大会</a>讲师。
+      ]]></desc>
+    <avatar>liangkuan.jpg</avatar>
+    <speech>《如何用数据实现商业价值》</speech>
+  </speaker>
+
+  <speaker>
+    <fullname>罗旭祥</fullname>
+    <nickname></nickname>
+    <company></company>
+    <position></position>
+    <desc><![CDATA[
+      上海思容信息技术有限公司（思容咨询）总经理，上海益思企业管理咨询公司咨询顾问，广州侨远企业管理咨询公司咨询顾问。<br/>
+      著《精益求精——卓越的互联网产品设计与管理》，用户体验咨询师出身，曾为UPA中国成员，曾于某知名IT集团互联网事业部任职产品总监，曾为广东发展银行总行、中国工商银行总行、宇信易诚、支付宝、太平洋电脑网、艾瑞咨询、中国移动、中国电信、家庭医生在线、蚁集网、星期八网、易起买团购、和茶网等企事业单位提供服务，项目经验包括云计算数据产品、DW/BI、O2O、B2C、网银、资讯类网站、Web2.0网站以及多款手机应用等。2010中国软件技术大会演讲嘉宾。<br/>
+      他是门票3600元的<a href="http://mpday.csdn.net/">2011年亚太软件研发团队高峰论坛</a>的讲师。也是门票为1680元的<a href="http://www.softcon.cn/web2010/review.asp">2010年中国软件大会</a>讲师。
+      ]]></desc>
+    <avatar>luoxuxiang.jpg</avatar>
+    <speech>《基于用户数据挖掘的产品设计》</speech>
+  </speaker>
+
+  <speaker>
+    <fullname>张月</fullname>
+    <nickname></nickname>
+    <company></company>
+    <position></position>
+    <desc><![CDATA[
+      优士网联合创始人&amp;首席产品官，资深互联网产品设计师，在互联网领域有超过10年的从业经验，对互联网商业模式、用户体验和产品设计都 有着深刻的 了解和精准的把握。<br/>
+      他有过多次互联网行业的创业经验，也独立创建和运营过多个实验性的Web2.0网站项目，包括新聚网和时库网等。近两年来专注在社交网 站和开放平台领域的探索和实践，他参与了优士网的创建，并使其在两年之内成为了中国职业社交网站的领先者。<br/>
+      微博：<a href="http://pmcon.51qiangzuo.com/weibo.com/everfly">weibo.com/everfly</a><br/>
+      <strong>主题简介：</strong>facebook即将IPO掀起了新一轮社交网站的关注热潮，而在国内，SNS领域不仅是腾讯、新浪、人人等互联网巨头必争的战场，同样也是对创业企业充 满诱惑的土壤，不断有令人激动的新商业模式产生出来。张月将利用他近年来对社交网站的研究和实践，并结合大量的案例，与大家一起分享如何通过正确的产品设 计和运营策略将社交网站导入成功。
+      ]]></desc>
+    <avatar>zhangyue.jpg</avatar>
+    <speech>《社交类网站的产品设计与运营》</speech>
+  </speaker>
+
+  <speaker>
+    <fullname>熊子川</fullname>
+    <nickname></nickname>
+    <company></company>
+    <position></position>
+    <desc><![CDATA[
+      熊子川，ThoughtWorks中国首席设计师，，他关注商业模式、体验设计、以及软件交付，同时是中国推广敏捷方法的社区参与者。他和全球团队一起打造中国区用户体验设计团队。同时也是敏捷/精益思想在中国的推广者，我关注商业价值，体验设计，咨询技巧，以及关于历史、科学、文化、设计、现代艺术、朋友的一切。潜在的敏捷咨询服务、定制化软件交付、以及精益/敏捷培训。<br/>
+      作为商业分析师一直工作在客户现场，致力于利用优秀的软件体验设计，帮助客户实现最大商业价值，也是多个敏捷咨询项目的直接参与者。<br/>
+      微博/博客: <a href="http://weibo.com/u/1665809684">@一只土贼</a> <a href="http://www.infoq.com/cn/articles/xzc-experience-design-software">InfoQ采访</a><br/>
+      他是门票4200元的<a href="http://www.qconbeijing.com/schedule.php">QCon北京2012</a>讲师，也是门票2200元的<a href="http://agilechina.mymova.com/">2011年敏捷中国大会</a>讲师
+      ]]></desc>
+    <avatar>xiongzichuan.jpg</avatar>
+    <speech>《Design Thinking的方法启动交付项目》</speech>
+  </speaker>
 </speakers>
