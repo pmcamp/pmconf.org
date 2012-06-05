@@ -2,3 +2,8 @@
 *.swp
 *.swo
 .DS_Store
+bin/
+local/
+include/
+logs/
+lib/
